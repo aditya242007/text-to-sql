@@ -13,3 +13,14 @@ htmlcov/
 .DS_Store
 .DS_Store
 .DS_Store
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.dump
+.DS_Store
