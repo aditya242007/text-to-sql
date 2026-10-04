@@ -1,26 +1,34 @@
+# Secrets & environment
 .env
+
+# Virtual environment
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# Test & coverage
 .pytest_cache/
-.ruff_cache/
-.mypy_cache/
 .coverage
 htmlcov/
+
+# Linting / type-checking cache
+.ruff_cache/
+.mypy_cache/
+
+# Build artefacts
+*.egg-info/
+dist/
+build/
+
+# Database dumps
 *.dump
+
+# macOS
+.DS_Store
+
+# IDEs
 .idea/
 .vscode/
-.DS_Store
-.DS_Store
-.DS_Store
-.env
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-*.dump
-.DS_Store
